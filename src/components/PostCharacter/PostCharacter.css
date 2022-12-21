@@ -1,0 +1,13 @@
+.addForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f3542;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.addForm>button,
+input {
+    margin: 5px;
+}

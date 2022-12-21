@@ -1,0 +1,38 @@
+.loginParent {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #2f3542;
+  transition: 0.5s;
+}
+
+.loginForm:hover {
+  box-shadow: 0 0 25px #2f3542;
+}
+
+.loginForm>button {
+  transition: All 0.5s ease;
+  width: 50%;
+}
+
+.loginForm>button:hover {
+  width: 100%;
+}
+
+.loginForm>h1 {
+  margin: 0;
+}
